@@ -3,7 +3,6 @@ provider "aws" {
   version = "2.59"
 }
 
-
 // Creates Key
 resource "aws_key_pair" "us-east-1-key-output" {
   key_name   = "silvia_bastion_output"
@@ -64,20 +63,39 @@ resource "aws_route53_record" "www" {
 
 // Outputs Eveything
 
-output "key_pair" {
-  value = "${aws_key_pair.us-east-1-key-output.key_name}"
-}
-
-
 output "instance_id" {
   value = "${aws_instance.web-output.id}"
 }
 
-output "sec_group" {
-  value = "${aws_security_group.allow_tls-output.name}"
+output "key_name" {
+  value = "${aws_key_pair.us-east-1-key-output.key_name}"
 }
 
-output "route53_zone_id" {
-  value = "${aws_route53_record.www.zone_id}"
+output "instance_ip" {
+  value = "${aws_instance.web-output.public_ip}"
 }
+
+output "instance_arn" {
+  value = "${aws_instance.web-output.arn}"
+}
+
+output "public_dns" {
+  value = "${aws_instance.web-output.public_dns}"
+}
+
+output "message" {
+  value = "Login to wordpress and reset passwd"
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
