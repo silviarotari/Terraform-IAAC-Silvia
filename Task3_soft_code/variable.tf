@@ -18,6 +18,12 @@ variable "sg_name" {}
 variable "ingress_cidr_blocks" {type = "list"}
 variable "egress_cidr_blocks" {type = "list"}
 
+variable "az1" {}
+variable "az2" {}
+variable "az3" {}
+
+
+
 variable "tags" {
   type = "map"
 }

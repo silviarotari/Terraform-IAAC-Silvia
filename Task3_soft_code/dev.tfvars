@@ -18,8 +18,13 @@ sg_name = "allow_tls"
 ingress_cidr_blocks = ["0.0.0.0/0"]
 egress_cidr_blocks = ["0.0.0.0/0"]
 
+az1 = "a"
+az2 = "b"
+az3 = "c"
+
 
 tags = {
+    Name = "VPC_Project"
     Environment = "Dev"
     Department = "IT"
     Team = "Infrastructure"
