@@ -1,8 +1,8 @@
 <img width="875" alt="Screen Shot 2020-04-30 at 2 36 45 PM" src="https://user-images.githubusercontent.com/57469926/80751819-18bc5000-8af0-11ea-932b-56ce6a7bf372.png">
 
-<img width="1409" alt="Screen Shot 2020-04-30 at 2 39 05 PM" src="https://user-images.githubusercontent.com/57469926/80752000-6afd7100-8af0-11ea-9d21-f885a9cf9084.png">
+<img width="469" alt="Screen Shot 2020-04-30 at 2 56 51 PM" src="https://user-images.githubusercontent.com/57469926/80753473-f0822080-8af2-11ea-9f9c-d35631ca7e19.png">
 
-<img width="453" alt="Screen Shot 2020-04-30 at 2 31 58 PM" src="https://user-images.githubusercontent.com/57469926/80751853-283b9900-8af0-11ea-8910-8433f920f851.png">
+<img width="341" alt="Screen Shot 2020-04-30 at 2 55 50 PM" src="https://user-images.githubusercontent.com/57469926/80753486-f37d1100-8af2-11ea-8485-7171fb3836ae.png">
 
 <img width="1179" alt="Screen Shot 2020-04-30 at 2 09 51 PM" src="https://user-images.githubusercontent.com/57469926/80751862-2d98e380-8af0-11ea-9926-fd78ef1fdb4d.png">
 
