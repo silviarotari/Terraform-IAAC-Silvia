@@ -6,6 +6,7 @@ resource "aws_instance" "web" {
   security_groups = ["${aws_security_group.allow_tls.name}"]
   user_data = "${file("user_data.sh")}"
   availability_zone = "${var.public_subnet_az}"
+  vpc_security_group_ids = ["${aws_security_group.allow_tls.id}"]
 
   tags = "${var.tags}"
 }
