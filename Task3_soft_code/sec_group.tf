@@ -26,12 +26,6 @@ resource "aws_security_group" "allow_tls" {
     cidr_blocks = ["${var.egress_cidr_blocks}"]
   }
 
-  tags = {
-    Name = "${var.Name}"
-    Environment = "${var.Environment}"
-    Department = "${var.Department}"
-    Team = "${var.Team}"
-    Created_by = "${var.Created_by}"
-  }
+  tags = "${var.tags}"
 }
 

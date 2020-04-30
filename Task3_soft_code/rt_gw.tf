@@ -5,14 +5,7 @@ resource "aws_route_table" "rt_gw" {
     cidr_block = "${var.ig_cidr_block}"
     gateway_id = "${aws_internet_gateway.gw.id}"
   }
-
-  tags = {
-    Name = "${var.Name}"
-    Environment = "${var.Environment}"
-    Department = "${var.Department}"
-    Team = "${var.Team}"
-    Created_by = "${var.Created_by}"
-  }
+tags = "${var.tags}"
 }
 
 

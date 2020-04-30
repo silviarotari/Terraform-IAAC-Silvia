@@ -6,12 +6,6 @@ resource "aws_route_table" "rt_ngw" {
     nat_gateway_id = "${aws_nat_gateway.ngw.id}"
   }
 
-  tags = {
-    Name = "${var.Name}"
-    Environment = "${var.Environment}"
-    Department = "${var.Department}"
-    Team = "${var.Team}"
-    Created_by = "${var.Created_by}"
-  }
+  tags = "${var.tags}"
 }
 

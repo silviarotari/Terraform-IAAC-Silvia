@@ -7,13 +7,7 @@ resource "aws_instance" "web" {
   user_data = "${file("user_data.sh")}"
   availability_zone = "${var.public_subnet_az}"
 
-  tags = {
-    Name = "${var.Name}"
-    Environment = "${var.Environment}"
-    Department = "${var.Department}"
-    Team = "${var.Team}"
-    Created_by = "${var.Created_by}"
-  }
+  tags = "${var.tags}"
 }
 
 

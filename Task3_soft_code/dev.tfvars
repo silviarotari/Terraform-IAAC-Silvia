@@ -17,7 +17,13 @@ ami = "ami-0323c3dd2da7fb37d"
 sg_name = "allow_tls"
 ingress_cidr_blocks = ["0.0.0.0/0"]
 egress_cidr_blocks = ["0.0.0.0/0"]
-Environment = "Dev"
-Department = "IT"
-Team = "Infrastructure"
-Created_by = "Silvia_Rotari"
+
+
+tags = {
+    Environment = "Dev"
+    Department = "IT"
+    Team = "Infrastructure"
+    Created_by = "Silvia_Rotari"
+    
+}
+
