@@ -1,4 +1,26 @@
-<img width="875" alt="Screen Shot 2020-04-30 at 2 36 45 PM" src="https://user-images.githubusercontent.com/57469926/80751819-18bc5000-8af0-11ea-932b-56ce6a7bf372.png">
+#### VPC via Terraform
+
+VPC:
+- 3 Public Subnets/different AZs
+- 3 Private Subnets/different AZs
+
+Each resource should have the following softcoded tags on them
+1. Name        = VPC_Project
+2. Environment = IT
+3. Department  = Dev
+4. Team        = Infrastructure
+5. Created_by  = Your_name
+
+Public Subnets should have IGW attached 
+Private Subnets should have NGW attached
+
+RT - has to be done properly, and subnets should be associated with the route table
+
+On top of Public Subnet create 1 ec2_instance with your bastion_key attached. The instance has to have SG that allows port 22 and 80.
+Using terraform user_data.sh parameter install httpd in that instance.
+
+The code is reusesable, it can run in any AWS Regions.
+
 
 - terraform apply --var-file dev.tfvars
 
