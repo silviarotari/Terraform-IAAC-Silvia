@@ -34,7 +34,7 @@ resource "aws_instance" "centos" {
 
     inline = [
       "sudo yum install httpd -y",
-      "sudo systemctl start httpd -y",
+      "sudo systemctl start httpd",
     ]
   }
 }
