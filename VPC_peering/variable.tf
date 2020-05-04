@@ -4,16 +4,13 @@
  variable "ami" {}
  variable "instance_type" {}
 
- variable "vpc_cidr" {}
+variable "cidr_block" {}
  variable "gw_cidr_block" {}
 
 
  variable "az1" {}
  variable "az2" {}
  variable "az3" {}
-
-
-variable "cidr_block" {}
 
 
 variable "cidr_block1_public" {}
