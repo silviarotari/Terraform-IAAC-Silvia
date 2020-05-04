@@ -2,9 +2,9 @@
 resource "aws_instance" "bastion" {
   ami           = "${var.ami}"
   instance_type = "t2.micro"
-  subnet_id = "${aws_subnet.dev1.id}"
+  subnet_id = "${aws_subnet.public_sub1.id}"
   availability_zone = "${var.region}${var.az1}"
-  vpc_security_group_ids = ["${aws_security_group.bastion_sec.id}"]
+  vpc_security_group_ids = ["${aws_security_group.bastion_sg.id}"]
   associate_public_ip_address = true
   key_name  =  "${aws_key_pair.us-east-2-key.key_name}"
 

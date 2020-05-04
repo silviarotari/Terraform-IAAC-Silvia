@@ -1,5 +1,5 @@
 resource "aws_security_group" "db_sg" {
-  name        = "${var.sg_name}"
+  name        = "dbsg"
   description = "Allow TLS inbound traffic"
 
   vpc_id = "${aws_vpc.main.id}" 

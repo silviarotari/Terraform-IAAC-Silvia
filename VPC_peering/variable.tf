@@ -13,17 +13,20 @@
  variable "az3" {}
 
 
- variable "public_sub1" {}
- variable "public_sub2" {}
- variable "public_sub3" {}
+variable "cidr_block" {}
 
 
-variable "private_sub1" {}
-variable "private_sub2" {}
-variable "private_sub3" {}
+variable "cidr_block1_public" {}
+variable "cidr_block2_public" {}
+variable "cidr_block3_public" {}
 
+
+variable "cidr_block1_private" {}
+variable "cidr_block2_private" {}
+variable "cidr_block3_private" {}
 
 variable "tags" {
     type = "map" 
 }
+
 

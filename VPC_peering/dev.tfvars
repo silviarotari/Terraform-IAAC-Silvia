@@ -15,7 +15,7 @@ az3 = "c"
 
 
 public_sub1 = "192.168.1.0/24"
-public_sub2 = "192.168.2.0/24"
+cidr_block2_public = "192.168.2.0/24"
 public_sub3 = "192.168.3.0/24"
 
 
@@ -24,8 +24,6 @@ private_sub2 = "192.168.12.0/24"
 private_sub3 = "192.168.13.0/24"
 
 
-sg_name = "bastion_sg"
-sg_name = "db_sg"
 ingress_cidr_blocks = ["0.0.0.0/0"]
 egress_cidr_blocks = ["0.0.0.0/0"]
 

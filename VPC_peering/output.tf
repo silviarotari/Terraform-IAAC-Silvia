@@ -31,7 +31,7 @@ output "igw_id" {
 }
 
 output "ngw_id" {
-  value = "${aws_nat_gateway.ngw.id}        ${aws_route_table.rt_ngw.id}"
+  value = "${aws_nat_gateway.ngw.id}"       
 }
 
 
