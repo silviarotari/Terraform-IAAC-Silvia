@@ -1,4 +1,4 @@
-resource "aws_security_group" "bastion_sec_group" {
+resource "aws_security_group" "bastion_sg" {
   name        = "${var.sg_name}"
   description = "Allow TLS inbound traffic"
   vpc_id = "${aws_vpc.main.id}" 
