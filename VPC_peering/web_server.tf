@@ -1,4 +1,4 @@
-resource "aws_instance" "web" {
+resource "aws_instance" "web_server" {
   ami           = "${var.ami}"
   instance_type = "t2.micro"
   subnet_id = "${aws_subnet.public_sub2.id}"
