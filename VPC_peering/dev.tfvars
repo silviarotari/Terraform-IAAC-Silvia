@@ -6,7 +6,7 @@ ami = "ami-0f7919c33c90f5b58"
 instance_type = "t2.micro"
 
 
-vpc_cidr = "192.168.0.0/16"
+cidr_block = "192.168.0.0/16"
 gw_cidr_block = "0.0.0.0/0"
 
 az1 = "a"
@@ -14,14 +14,14 @@ az2 = "b"
 az3 = "c"
 
 
-public_sub1 = "192.168.1.0/24"
+cidr_block1_public = "192.168.1.0/24"
 cidr_block2_public = "192.168.2.0/24"
-public_sub3 = "192.168.3.0/24"
+cidr_block3_public = "192.168.3.0/24"
 
 
-private_sub1 = "192.168.11.0/24"
-private_sub2 = "192.168.12.0/24"
-private_sub3 = "192.168.13.0/24"
+cidr_block1_private = "192.168.11.0/24"
+cidr_block2_private = "192.168.12.0/24"
+cidr_block3_private = "192.168.13.0/24"
 
 
 ingress_cidr_blocks = ["0.0.0.0/0"]
