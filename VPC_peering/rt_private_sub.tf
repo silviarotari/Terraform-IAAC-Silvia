@@ -4,7 +4,7 @@ resource "aws_route_table" "rt_private" {
   tags = "${var.tags}"
   route { 
     cidr_block = "0.0.0.0/0" 
-    gateway_id = "${aws_nat_gateway.mat.id}" 
+    gateway_id = "${aws_nat_gateway.ngw.id}" 
     } 
 } 
 
