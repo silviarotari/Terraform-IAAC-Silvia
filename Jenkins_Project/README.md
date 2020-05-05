@@ -108,6 +108,8 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword`$(tput sgr0)",
 ![image](https://user-images.githubusercontent.com/57469926/81095251-6529d600-8eca-11ea-85d0-5366dc33368b.png)
 
 
+## Jenkins Dashboard
+
 ![image](https://user-images.githubusercontent.com/57469926/81095269-6bb84d80-8eca-11ea-8abd-de46a2877a91.png)
 
 
