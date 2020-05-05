@@ -9,7 +9,7 @@ resource "aws_autoscaling_group" "example" {
 availability_zones = [
     "${var.region}a" ,
     "${var.region}b" ,
-    "${var.region}c"
+    "${var.region}c" ,
 ] 
 desired_capacity = 1 
 max_size = 1 
