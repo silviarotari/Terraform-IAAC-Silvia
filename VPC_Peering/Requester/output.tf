@@ -55,6 +55,11 @@ output "rt_association" {
 }
 
 
+output "peering_requester_connection" {
+  value = "${aws_vpc_peering_connection.peer.id}"
+}
+
+
   output "tags" {
   value       = "${var.tags}"
 }
