@@ -1,10 +1,6 @@
-provider "aws" {
-  region = "us-east-1"
-  version = "2.59"
-}
+provider "aws" { 
+region = "us-east-1" 
+} 
 
-
-terraform {
-  required_version = "0.11.14"
-}
-
+//Whitch provider to work with
+//Whitch region to work with
