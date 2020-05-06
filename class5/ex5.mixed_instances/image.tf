@@ -4,3 +4,4 @@ data "aws_ami" "image" {
 }
 
 //Creates linux-amazon ec2 instance
+
