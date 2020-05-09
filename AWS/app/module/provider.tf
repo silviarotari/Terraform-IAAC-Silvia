@@ -1,5 +1,8 @@
-provider "aws" { 
-region = "${var.region}" 
-} 
+provider "aws" {
+  region  = "${var.region}"
+  version = "2.59"
+}
 
-variable "region" {} 
+terraform {
+  required_version = "0.11.14"
+}
