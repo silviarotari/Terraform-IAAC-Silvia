@@ -27,7 +27,7 @@ module "my-cluster" {
       "subnet-0a18452194a979a1b"
       ] 
 
-      
+
   vpc_id = "vpc-06200fe3216ddcc75" 
   worker_groups = [{ 
     instance_type = "m4.large" 
