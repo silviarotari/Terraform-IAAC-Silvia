@@ -22,7 +22,12 @@ module "my-cluster" {
   cluster_name = "my-cluster" 
   cluster_version = "1.14" 
   subnets = [
-      "subnet-07f93923e4dd4c44c", "subnet-0bd918a8c7f0fa5c7", "subnet-0a18452194a979a1b"] 
+      "subnet-07f93923e4dd4c44c",
+      "subnet-0bd918a8c7f0fa5c7", 
+      "subnet-0a18452194a979a1b"
+      ] 
+
+      
   vpc_id = "vpc-06200fe3216ddcc75" 
   worker_groups = [{ 
     instance_type = "m4.large" 
