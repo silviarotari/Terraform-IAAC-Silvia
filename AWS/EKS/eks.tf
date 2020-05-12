@@ -27,11 +27,13 @@ module "my-cluster" {
       "subnet-0a18452194a979a1b"
       ] 
 
-      
+
   vpc_id = "vpc-06200fe3216ddcc75" 
   worker_groups = [{ 
-    instance_type = "m4.large" 
-    asg_max_size = 5 
+    instance_type = "m4.large"
+    asg_min_size = 3  
+    asg_max_size = 5
+    asg_desired_capacity = 3  
     } 
   ] 
 } 
