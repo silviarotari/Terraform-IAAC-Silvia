@@ -1,0 +1,17 @@
+environment = "dev"
+region = "us-east-1"
+s3_bucket = "silvia-terraform-eks"              #Will be used to set backend.tf
+s3_folder_project = "application"               #Will be used to set backend.tf
+s3_folder_region = "us-east-1"                  #Will be used to set backend.tf
+s3_folder_type = "state"                        #Will be used to set backend.tf
+s3_tfstate_file = "infrastructure.tfstate"      #Will be used to set backend.tf
+vpc_id = "vpc-06200fe3216ddcc75"
+subnet1 = "subnet-07f93923e4dd4c44c"
+subnet2 = "subnet-0bd918a8c7f0fa5c7"
+subnet3 = "subnet-0a18452194a979a1b"
+cluster_name = "cluster"
+instance_type = "t2.micro"
+asg_max_size = "48" 
+asg_min_size = "3"
+asg_desired_capacity = "3"
+cluster_version = "1.14"
