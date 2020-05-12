@@ -32,8 +32,8 @@ module "my-cluster" {
   worker_groups = [{ 
     instance_type = "m4.large"
     asg_min_size = 3  
-    asg_max_size = 5
+    asg_max_size = 48
     asg_desired_capacity = 3  
     } 
   ] 
-} 
+}
